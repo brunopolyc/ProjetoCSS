@@ -1,0 +1,105 @@
+body{
+    font-family: arial, sans0serif;
+    background: #ccc;
+    margin: 0;
+}
+.hero{
+    background-image: url(../imagens/bg-1.jpg) ;
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+
+}
+.hero-content p{
+    background-color: rgba(0,0,0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    border-bottom: 4px solid white;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    text-shadow: 3px 3px 5px #333;
+}
+.hero nav ul{
+    text-align: right;
+    margin: 25px 25px 0px 0px;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;    
+    border: 3px solid white;
+    margin-left: 5px;
+}
+.hero nav a{
+    background: rgba(0,0,0,0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background: rgba(0,0,0, 0.5)
+}
+main{
+    width: 80%;
+    margin: auto;
+    }
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px ;
+    overflow: auto;
+}
+.content-section h2{
+    text-align: left;
+    background:#ccc;
+    border-bottom: solid 2px #333;
+    margin: 5px 5px;
+}
+.content-section p{
+    margin: 10px 5px 5px;    
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    background-color:rgba(0,0,0, 0.5);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background: #333;
+    background-size: auto;
+    height: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black ;
+    opacity: 50%;
+}
